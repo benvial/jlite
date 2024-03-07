@@ -24,6 +24,10 @@ Material Design when selecting colors. We are not, however, following
 all of MD as it is not optimized for dense, information rich UIs.
 */
 
+@import url("https://pvinis.github.io/iosevka-webfont/3.4.1/iosevka.css");
+
+
+
 :root {
   /* Elevation
    *
@@ -179,7 +183,7 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-code-font-size: 13px;
   --jp-code-line-height: 1.3077; /* 17px for 13px base */
   --jp-code-padding: 5px; /* 5px for 13px base, codemirror highlighting needs integer px value */
-  --jp-code-font-family-default: menlo, consolas, 'DejaVu Sans Mono', monospace;
+  --jp-code-font-family-default: Iosevka Web, menlo, consolas, 'DejaVu Sans Mono', monospace;
   --jp-code-font-family: var(--jp-code-font-family-default);
 
   /* This gives a magnification of about 125% in presentation mode over normal. */
@@ -421,15 +425,4 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-inspector-icon-color: var(--md-grey-700);
   --jp-switch-color: var(--md-grey-400);
   --jp-switch-true-position-color: var(--md-orange-900);
-}
-
-/*-----------------------------------------------------------------------------
-| Copyright (c) Jupyter Development Team.
-| Distributed under the terms of the Modified BSD License.
-|----------------------------------------------------------------------------*/
-
-
-/* hide Pyodide banner  */
-.lm-Widget.jp-Cell.jp-RawCell.jp-CodeConsole-banner {
-  visibility: collapse;
 }

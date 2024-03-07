@@ -11,6 +11,10 @@ pre {
   line-height: var(--jp-code-line-height);
 }
 
-/* .cm-line {
-  visibility: hidden;
-} */
+
+/* hide Pyodide banner  */
+.lm-Widget.jp-Cell.jp-RawCell.jp-CodeConsole-banner {
+  visibility: collapse;
+}
+
+
