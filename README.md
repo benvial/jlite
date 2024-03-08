@@ -1,6 +1,10 @@
 # JupyterLite 
 
-[![lite-badge](https://jupyterlite.rtfd.io/en/latest/_static/badge.svg)]([https://jupyterlite.github.io/demo](https://bvial.info/jlite))
+
+[![Static Badge](https://img.shields.io/badge/launch-server-yellow?style=for-the-badge&logo=jupyter&labelColor=3a3a3a&color=f5db2f)]([](http://bvial.info/jlite/repl/?kernel=python&code=import%20numpy%20as%20np&code=import%20matplotlib.pyplot%20as%20plt&code=plt.style.use('matplotlib/jlab.mplstyle')))
+
+[![Static Badge](https://img.shields.io/badge/run-python-yellow?style=for-the-badge&logo=python&labelColor=3a3a3a&color=3d71a5&logoColor=white)]([](http://bvial.info/jlite))
+
 
 
 JupyterLite deployed as a static site to GitHub Pages
@@ -10,6 +14,3 @@ JupyterLite deployed as a static site to GitHub Pages
 ➡️ **https://bvial.info/jlite**
 
 
-For a minimal Python interface
-
-➡️ **https://bvial.info/jlite/repl/?kernel=python**
